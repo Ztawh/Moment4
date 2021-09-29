@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+// Typsnitt
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+h1 {
+    font-family: 'Unica One', cursive;
+    font-size: 4rem;
+    letter-spacing: 20px;
+    text-align: center;
+    padding-top: 5rem;
+
+    @include mobile {
+        font-size: 3rem;
+        letter-spacing: 5px;
+    }
+}
+
+h2 {
+    font-size: 2rem;
+
+    @include mobile {
+        font-size: 1.7rem;
+    }
+}
+
